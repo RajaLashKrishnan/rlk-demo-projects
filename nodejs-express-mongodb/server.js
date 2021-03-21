@@ -36,6 +36,8 @@ app.get("/", (req, res) => {
 });
 
 require("./app/routes/pclrequest.routes")(app);
+require("./app/routes/customer.routes")(app);
+require("./app/routes/relation.routes")(app);
 require("./app/routes/turorial.routes")(app);
 
 // set port, listen for requests

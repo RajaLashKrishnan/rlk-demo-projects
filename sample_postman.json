@@ -1,0 +1,30 @@
+{
+"name": "Raja",
+"accountype": "A",
+"occupation": "Software Engineer",
+"balance": "1000", 
+"status": "A"
+}
+{
+  "customerName": "Raja Krishnan",
+  "accountType": "A",
+  "occupation": "Software Engineer",
+  "balance": "$100,000",
+  "status": "Active"
+},
+{
+  "source": "6056a03d1daa4eaf8b1c4211",
+  "target": "6056a0791daa4eaf8b1c4212",
+  "targetName": "Raghu Krishnan",
+  "relation": "Is younger Brother of"
+},
+
+{
+  "requestType": "InDC",
+  "targetEntityType": "PO",
+  "targetEntityId": "PO1234",
+  "changeAttribute": "in-dc-date",
+  "changeValue": "10/10/2021",
+  "status": "requested",
+  "message": " "
+}
